@@ -22,7 +22,7 @@ The **Role-Based Access Control App** is a web application built using the Go pr
 
 The project follows a structured design with directories for controllers, models, middlewares, and routes. The user authentication, role-based authorization, and dashboard routes are defined within these directories.
 
-
+``` bash
 role_based_app/
 ├── controllers/
 │   ├── admin_controller.go
@@ -43,6 +43,8 @@ role_based_app/
 ├── go.mod
 ├── go.sum
 └── main.go
+```
+
 
 ## Installation and Usage
 

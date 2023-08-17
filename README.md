@@ -29,6 +29,10 @@ role_based_app/
 │   ├── auth_controller.go
 │   ├── client_controller.go
 │   └── moderator_controller.go
+├── initializers/
+│   ├── connectDB.go
+│   ├── loadEnvVariables.go
+│   └── syncDB.go
 ├── middlewares/
 │   ├── admin_role_required.go
 │   ├── client_role_required.go
